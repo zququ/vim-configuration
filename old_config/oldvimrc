@@ -1,0 +1,22 @@
+set hlsearch
+set incsearch
+set relativenumber
+set cursorline
+set wrap
+set showcmd
+set wildmenu
+syntax on
+set smartcase
+exec 'nohlsearch'
+let g:SnazzyTransparent = 1
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'vim-airline/vim-airline'
+Plug 'connorholyday/vim-snazzy'
+
+call plug#end()
+
+color snazzy
+
+
